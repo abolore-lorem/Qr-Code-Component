@@ -1,0 +1,64 @@
+/* CSS RESET */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* GENERAL STYLES */
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 15px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+  
+    
+}
+
+img{
+    width: 100%;
+}
+/* Utility Classes */
+.container {
+    width: 70%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.qr-code{
+    padding: 30px;
+}
+
+.qr-code img {
+    border-radius: 20px;
+}
+
+.text {
+    padding: 0 30px;
+}
+
+.text h1 {
+    margin-bottom: 30px;
+}
+
+.text p {
+    margin-bottom: 20px;
+    color:  hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-weight: bold;
+    padding: 10px;
+}
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+       
+    }
+}
